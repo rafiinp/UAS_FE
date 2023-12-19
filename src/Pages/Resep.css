@@ -1,0 +1,94 @@
+.Pelayanan-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  
+  .Pelayanan-section-top {
+    text-align: center;
+  }
+  
+  .primary-subheading,
+  .primary-heading,
+  .primary-text {
+    margin-bottom: 1rem;
+    text-align: center; /* Menambahkan ini */
+    width: 100%; /* Menambahkan ini */
+  }
+  
+  .Pelayanan-section-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    align-items: stretch;
+  }
+  
+  .Pelayanan-section-info {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Mengubah ini dari 'calc(100% / 6 - 10px)' menjadi '100%' */
+    height: auto;
+    margin: 5px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .info-boxes-img-container img {
+    display: block; /* Menambahkan ini */
+    margin-left: auto; /* Menambahkan ini */
+    margin-right: auto; /* Menambahkan ini */
+    width: 100%; /* Mengubah ini */
+    aspect-ratio: 1 / 1; /* Menambahkan ini */
+    object-fit: cover; /* Membuat gambar menyesuaikan dengan ukuran yang ditentukan */
+    margin-bottom: 0.5rem;
+    box-sizing: border-box;
+  }
+  
+  /* Media query untuk layar dengan lebar minimal 600px */
+  @media (min-width: 600px) {
+    .Pelayanan-section-info {
+      width: calc(100% / 2 - 10px); /* Mengubah ini dari '100%' menjadi 'calc(100% / 2 - 10px)' */
+    }
+  }
+  
+  /* Media query untuk layar dengan lebar minimal 900px */
+  @media (min-width: 900px) {
+    .Pelayanan-section-info {
+      width: calc(100% / 3 - 10px); /* Mengubah ini dari 'calc(100% / 2 - 10px)' menjadi 'calc(100% / 3 - 10px)' */
+    }
+  }
+  
+  /* Media query untuk layar dengan lebar minimal 1200px */
+  @media (min-width: 1200px) {
+    .Pelayanan-section-info {
+      width: calc(100% / 6 - 10px); /* Mengubah ini dari 'calc(100% / 3 - 10px)' menjadi 'calc(100% / 6 - 10px)' */
+    }
+  }
+  .info-text-container {
+    font-size: 10px; /* Menambahkan ini */
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: justify;
+    text-align: center;
+  }
+  
+  .Pelayanan-section-info p {
+    font-size: 13px;
+    color:#6c757d;
+  }
+  
+  .Pelayanan-section-info h2 {
+    font-size: 15px;
+    color:#6c757d;
+  }
+  
+  
